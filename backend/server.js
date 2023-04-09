@@ -19,6 +19,7 @@ app.use('/api/users', require('./routes/usersRoutes'))
 app.use('/api/clients', require('./routes/clientsRoutes'))
 app.use('/api/clients/address', require('./routes/clientsAddressRoutes'))
 app.use('/api/clients/order', require('./routes/clientsOrdersRoutes'))
+app.use('/api/clients/payment', require('./routes/orderPaymentsRoutes'))
 
 app.use(errorHandler)
 
